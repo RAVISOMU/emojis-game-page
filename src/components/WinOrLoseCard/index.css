@@ -1,0 +1,70 @@
+.result-image {
+  height: 100px;
+  width: 80px;
+}
+
+.text {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.best-score-text {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.details {
+  text-align: center;
+}
+
+.result {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #6a59ff;
+}
+
+.play-again-button {
+  background-color: #ffce27;
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #3d3d3d;
+  padding: 8px;
+  border-width: 0px;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .result-image {
+    height: 200px;
+    width: 170px;
+  }
+
+  .result-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .text {
+    font-size: 46px;
+  }
+
+  .result {
+    font-size: 28px;
+  }
+
+  .best-score-text {
+    font-size: 32px;
+  }
+
+  .details {
+    margin-right: 20px;
+    text-align: center;
+  }
+
+  .result-image {
+    order: 1;
+  }
+}

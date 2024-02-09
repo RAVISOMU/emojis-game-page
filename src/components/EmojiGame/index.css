@@ -1,0 +1,52 @@
+.emoji-game-page-bg-container {
+  background-image: linear-gradient(to bottom right, #9796f0, #fbc7d4);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.emojis-card-container {
+  width: 90%;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0px;
+  align-self: center;
+  margin-top: 32px;
+}
+
+.win-or-lose-card {
+  align-self: center;
+  width: 90%;
+  max-width: 1020px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .win-or-lose-card {
+    height: 540px;
+  }
+}
+
+.card-container {
+  width: 50%;
+  max-width: 624px;
+  background-color: transparent;
+  border: 3px solid #ffffff30;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .card-container {
+    height: 440px;
+  }
+}
